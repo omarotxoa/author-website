@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@300;400;800&display=swap");
 :root {
   --black: #0A0707;
   --orange: #C4591D;
@@ -11,6 +11,12 @@
 
 body {
   background-color: var(--black);
+  font-family: "Inconsolata", monospace;
+}
+
+h1, h2, h3,
+nav div {
+  font-family: "Karla", sans-serif;
 }
 
 body,
@@ -26,4 +32,34 @@ h1, h2, a:hover {
 button,
 input[type=submit] {
   background-color: var(--orange);
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav ul {
+  list-style-type: none;
+  font-size: 1.25rem;
+}
+nav ul a {
+  text-decoration: none;
+}
+
+nav div {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+nav div span {
+  font-weight: 800;
+  color: var(--orange);
 }/*# sourceMappingURL=styles.css.map */
