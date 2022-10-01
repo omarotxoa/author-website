@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@300;400;800&display=swap');
 
 :root {
   --black: #0A0707;
@@ -12,6 +12,12 @@
 
 body {
   background-color: var(--black);
+  font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, h3,
+nav div {
+  font-family: 'Karla', sans-serif;
 }
 
 body,
