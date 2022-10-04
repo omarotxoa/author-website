@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@300;400;800&display=swap');
-:root {
-  --black: #0A0707;
-  --orange: #C4591D;
-}
 
 * {
   padding: 0;
@@ -10,7 +6,7 @@
 }
 
 body {
-  background-color: var(--black);
+  background-color: $black;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -26,10 +22,10 @@ button a {
 }
 
 h1, h2, a:hover {
-  color: var(--orange);
+  color: $orange;
 }
 
 button,
 input[type=submit] {
-  background-color: var(--orange);
+  background-color: $orange;
 }

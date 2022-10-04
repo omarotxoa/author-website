@@ -1,13 +1,13 @@
 .box {
   padding: 1rem;
   color: white;
-  background-color: var(--black);
+  background-color: $black;
 }
 
 .box.invert {
-  color: var(--black);
+  color: $black;
   background-color: white;
   a {
-    color: var(--orange);
+    color: $orange;
   }
 }
