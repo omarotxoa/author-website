@@ -51,6 +51,14 @@ input[type=submit] {
   background-color: rgb(196, 89, 29);
 }
 
+svg rect {
+  fill: rgba(196, 89, 29, 0.5);
+}
+
+svg rect:nth-of-type(2) {
+  fill: rgb(196, 89, 29);
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
