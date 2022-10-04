@@ -1,0 +1,14 @@
+.box {
+  padding: 1rem;
+  color: white;
+  background-color: var(--black);
+}
+
+.box * {
+  color: inherit;
+}
+
+.box.invert {
+  color: var(--black);
+  background-color: white;
+}

@@ -34,6 +34,21 @@ input[type=submit] {
   background-color: var(--orange);
 }
 
+.box {
+  padding: 1rem;
+  color: white;
+  background-color: var(--black);
+}
+
+.box * {
+  color: inherit;
+}
+
+.box.invert {
+  color: var(--black);
+  background-color: white;
+}
+
 .cluster {
   display: flex;
   flex-wrap: wrap;
