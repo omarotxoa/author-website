@@ -4,11 +4,10 @@
   background-color: var(--black);
 }
 
-.box * {
-  color: inherit;
-}
-
 .box.invert {
   color: var(--black);
   background-color: white;
+  a {
+    color: var(--orange);
+  }
 }

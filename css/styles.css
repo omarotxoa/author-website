@@ -1,4 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@300;400;800&display=swap");
+.box {
+  padding: 1rem;
+  color: white;
+  background-color: var(--black);
+}
+
+.box.invert {
+  color: var(--black);
+  background-color: white;
+}
+.box.invert a {
+  color: var(--orange);
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
 :root {
   --black: #0A0707;
   --orange: #C4591D;
@@ -32,29 +54,6 @@ h1, h2, a:hover {
 button,
 input[type=submit] {
   background-color: var(--orange);
-}
-
-.box {
-  padding: 1rem;
-  color: white;
-  background-color: var(--black);
-}
-
-.box * {
-  color: inherit;
-}
-
-.box.invert {
-  color: var(--black);
-  background-color: white;
-}
-
-.cluster {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
 }
 
 nav {
