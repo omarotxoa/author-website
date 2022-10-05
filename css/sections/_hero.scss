@@ -1,0 +1,12 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  svg {
+    flex-grow: 1;
+  }
+  div {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+  }
+}
