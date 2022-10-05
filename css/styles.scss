@@ -2,9 +2,12 @@
 
 @import 'layouts/box';
 @import 'layouts/cluster';
+@import 'layouts/stack';
 
 @import 'global';
 
+@import 'modules/buttons';
 @import 'modules/svg';
 @import 'modules/nav';
 @import 'modules/logo';
+@import 'sections/hero';
