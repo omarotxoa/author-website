@@ -10,3 +10,13 @@ nav {
     }
   }
 }
+
+footer nav {
+  justify-content: center;
+  a {
+    padding: 1rem;
+  }
+  i:hover {
+    color: $orange;
+  }
+}

@@ -91,6 +91,16 @@ nav ul a {
   text-decoration: none;
 }
 
+footer nav {
+  justify-content: center;
+}
+footer nav a {
+  padding: 1rem;
+}
+footer nav i:hover {
+  color: rgb(196, 89, 29);
+}
+
 nav div {
   font-size: 2.5rem;
   font-weight: 300;
