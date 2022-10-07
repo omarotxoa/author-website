@@ -121,4 +121,15 @@ nav div span {
   flex-basis: 0;
   flex-grow: 999;
   min-inline-size: 50%;
+}
+
+.newsletter {
+  text-align: center;
+}
+.newsletter form {
+  -webkit-margin-before: 1rem;
+          margin-block-start: 1rem;
+}
+.newsletter form input {
+  padding: 0.5rem;
 }/*# sourceMappingURL=styles.css.map */
