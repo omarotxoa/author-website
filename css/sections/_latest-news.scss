@@ -1,0 +1,9 @@
+.latest-news {
+  a {
+    color: $orange;
+    text-decoration: none;
+    &:hover {
+      text-decoration: dotted underline;
+    }
+  }
+}

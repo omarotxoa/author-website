@@ -132,4 +132,13 @@ nav div span {
 }
 .newsletter form input {
   padding: 0.5rem;
+}
+
+.latest-news a {
+  color: rgb(196, 89, 29);
+  text-decoration: none;
+}
+.latest-news a:hover {
+  -webkit-text-decoration: dotted underline;
+          text-decoration: dotted underline;
 }/*# sourceMappingURL=styles.css.map */
