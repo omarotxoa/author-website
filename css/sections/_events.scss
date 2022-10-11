@@ -1,0 +1,22 @@
+table {
+  margin-block-start: 1em;
+  a {
+    text-decoration: none;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+  tbody {
+    tr {
+      &:nth-of-type(2n) {
+        background-color: $orange;
+        background-color: rgba($orange, .2);
+      }
+    }
+    td, th {
+      outline: 1px solid white;
+      padding: .5em;
+    }
+  }
+}

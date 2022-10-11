@@ -141,4 +141,24 @@ nav div span {
 .latest-news a:hover {
   -webkit-text-decoration: dotted underline;
           text-decoration: dotted underline;
+}
+
+table {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+}
+table a {
+  text-decoration: none;
+}
+table a:hover {
+  color: white;
+  text-decoration: underline;
+}
+table tbody tr:nth-of-type(2n) {
+  background-color: rgb(196, 89, 29);
+  background-color: rgba(196, 89, 29, 0.2);
+}
+table tbody td, table tbody th {
+  outline: 1px solid white;
+  padding: 0.5em;
 }/*# sourceMappingURL=styles.css.map */
