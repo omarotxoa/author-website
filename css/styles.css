@@ -61,6 +61,12 @@ h1, h2, a:hover {
   color: rgb(196, 89, 29);
 }
 
+@media (min-width: 1000px) {
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
 button,
 input[type=submit] {
   background-color: rgb(196, 89, 29);
