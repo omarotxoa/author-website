@@ -119,14 +119,34 @@ nav div span {
 .hero {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  -webkit-padding-before: 2em;
+          padding-block-start: 2em;
 }
 .hero svg {
-  flex-grow: 1;
+  padding: 1em;
 }
 .hero div {
   flex-basis: 0;
   flex-grow: 999;
   min-inline-size: 50%;
+  text-align: center;
+}
+.hero div button {
+  margin: 1em auto;
+}
+@media (min-width: 600px) {
+  .hero svg {
+    flex-grow: 1;
+  }
+  .hero div {
+    text-align: start;
+  }
+}
+@media (min-width: 1000px) {
+  .hero {
+    padding: 4em;
+  }
 }
 
 .newsletter {
