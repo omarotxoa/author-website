@@ -169,22 +169,34 @@ nav div span {
           text-decoration: dotted underline;
 }
 
-table {
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
+.events {
+  overflow-x: scroll;
 }
-table a {
+.events table {
+  -webkit-margin-before: 2em;
+          margin-block-start: 2em;
+  width: 750px;
+}
+.events table a {
   text-decoration: none;
 }
-table a:hover {
+.events table a:hover {
   color: white;
   text-decoration: underline;
 }
-table tbody tr:nth-of-type(2n) {
+.events table tbody th {
+  text-align: start;
+}
+.events table tbody tr:nth-of-type(2n) {
   background-color: rgb(196, 89, 29);
   background-color: rgba(196, 89, 29, 0.2);
 }
-table tbody td, table tbody th {
-  outline: 1px solid white;
-  padding: 0.5em;
+.events table tbody td, .events table tbody th {
+  padding: 0.5em 2em;
+}
+
+@media (min-width: 800px) {
+  .events {
+    overflow-x: hidden;
+  }
 }/*# sourceMappingURL=styles.css.map */

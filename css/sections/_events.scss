@@ -1,22 +1,35 @@
-table {
-  margin-block-start: 1em;
-  a {
-    text-decoration: none;
-    &:hover {
-      color: white;
-      text-decoration: underline;
-    }
-  }
-  tbody {
-    tr {
-      &:nth-of-type(2n) {
-        background-color: $orange;
-        background-color: rgba($orange, .2);
+.events {
+  overflow-x: scroll;
+  table {
+    margin-block-start: 2em;
+    width: 750px;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: white;
+        text-decoration: underline;
       }
     }
-    td, th {
-      outline: 1px solid white;
-      padding: .5em;
+    tbody {
+      th {
+        text-align: start;
+      }
+      tr {
+        &:nth-of-type(2n) {
+          background-color: $orange;
+          background-color: rgba($orange, .2);
+        }
+      }
+      td, th {
+        padding: .5em 2em;
+      }
     }
   }
 }
+
+@media (min-width: 800px) {
+  .events {
+    overflow-x: hidden;
+  }
+}
+
