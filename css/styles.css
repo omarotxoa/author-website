@@ -168,6 +168,14 @@ nav div span {
   -webkit-text-decoration: dotted underline;
           text-decoration: dotted underline;
 }
+.latest-news h2 {
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+.latest-news h3, .latest-news p {
+  -webkit-margin-after: 0.5em;
+          margin-block-end: 0.5em;
+}
 
 .events {
   overflow-x: scroll;

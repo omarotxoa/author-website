@@ -6,4 +6,10 @@
       text-decoration: dotted underline;
     }
   }
+  h2 {
+    margin-block-end: 1em;
+  }
+  h3, p {
+    margin-block-end: .5em;
+  }
 }
