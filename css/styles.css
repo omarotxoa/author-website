@@ -240,4 +240,8 @@ nav div span {
 .books h3 {
   color: rgb(196, 89, 29);
   font-weight: 300;
+}
+.books div {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
 }/*# sourceMappingURL=styles.css.map */
