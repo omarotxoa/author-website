@@ -25,9 +25,12 @@ h1, h2, a:hover {
   color: $orange;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
+  main {
+    padding: 2em;
+  }
   body {
-    max-width: 750px;
+    max-width: 800px;
     margin: 0 auto;
   }
 }
