@@ -36,6 +36,23 @@
           margin-block-start: var(--space, 1.5rem);
 }
 
+.with-sidebar {
+  --s1: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s1);
+}
+
+.with-sidebar > :first-child {
+  flex-grow: 1;
+}
+
+.with-sidebar > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 50%;
+}
+
 * {
   padding: 0;
   margin: 0;
