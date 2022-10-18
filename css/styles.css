@@ -160,6 +160,10 @@ nav div span {
   padding: 0.5rem;
 }
 
+.latest-news {
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
+}
 .latest-news a {
   color: rgb(196, 89, 29);
   text-decoration: none;
@@ -179,6 +183,8 @@ nav div span {
 
 .events {
   overflow-x: scroll;
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
 }
 .events table {
   -webkit-margin-before: 2em;
