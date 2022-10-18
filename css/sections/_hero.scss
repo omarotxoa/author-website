@@ -27,3 +27,11 @@
     padding: 4em;
   }
 }
+
+.hero.books {
+  @media (min-width: 600px) {
+    svg {
+      order: 2;
+    }
+  }
+}

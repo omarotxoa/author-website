@@ -149,6 +149,12 @@ nav div span {
   }
 }
 
+@media (min-width: 600px) {
+  .hero.books svg {
+    order: 2;
+  }
+}
+
 .newsletter {
   text-align: center;
 }
