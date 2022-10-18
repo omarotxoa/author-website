@@ -213,4 +213,8 @@ nav div span {
   .events {
     overflow-x: hidden;
   }
+}
+.books h3 {
+  color: rgb(196, 89, 29);
+  font-weight: 300;
 }/*# sourceMappingURL=styles.css.map */
