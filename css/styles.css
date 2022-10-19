@@ -255,8 +255,23 @@ nav div span {
 .contact-info h2, .contact-info h3 {
   font-weight: 400;
 }
-.contact-info h3 {
+.contact-info h3, .contact-info span {
   color: rgb(196, 89, 29);
+}
+.contact-info a {
+  text-decoration: none;
+}
+.contact-info a:hover {
+  -webkit-text-decoration: dotted underline;
+          text-decoration: dotted underline;
+}
+.contact-info section:nth-of-type(2) {
+  -webkit-margin-before: 4em;
+          margin-block-start: 4em;
+}
+.contact-info .newsletter {
+  -webkit-margin-before: 4em;
+          margin-block-start: 4em;
 }
 
 .about img {
