@@ -1,4 +1,11 @@
 nav {
+  a {
+  text-decoration-color: rgba(255,255,255,0.1);
+  &:hover {
+    text-decoration-color: $orange;
+  }
+}
+
   div {
     font-size: 2.5rem;
     font-weight: 300;
