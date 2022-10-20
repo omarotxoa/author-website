@@ -173,7 +173,7 @@ nav div span {
 }
 @media (min-width: 1000px) {
   .hero {
-    padding: 4em;
+    padding: 4em 4em 1em 4em;
   }
 }
 
