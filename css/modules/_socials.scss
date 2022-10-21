@@ -1,0 +1,12 @@
+.socials {
+  margin-block-start: 1em;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  i {
+    font-size: 1.5em;
+  }
+}

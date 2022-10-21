@@ -144,6 +144,20 @@ nav div span {
   color: rgb(196, 89, 29);
 }
 
+.socials {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+}
+.socials a {
+  text-decoration: none;
+}
+.socials a:hover {
+  text-decoration: none;
+}
+.socials i {
+  font-size: 1.5em;
+}
+
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -262,13 +276,6 @@ nav div span {
 }
 .contact-info h3, .contact-info span {
   color: rgb(196, 89, 29);
-}
-.contact-info a {
-  text-decoration: none;
-}
-.contact-info a:hover {
-  -webkit-text-decoration: dotted underline;
-          text-decoration: dotted underline;
 }
 .contact-info section:nth-of-type(2) {
   -webkit-margin-before: 4em;

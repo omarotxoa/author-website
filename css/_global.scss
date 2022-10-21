@@ -21,6 +21,13 @@ button a {
   color: white;
 }
 
+// a {
+//   text-decoration: none;
+//   &:hover {
+//     text-decoration: dotted underline;
+//   }
+// }
+
 h1, h2, a:hover {
   color: $orange;
 }
