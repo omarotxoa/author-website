@@ -1,0 +1,36 @@
+.delay-1 {
+  animation-delay: 1s;
+}
+
+.delay-1250 {
+  animation-delay: 1250ms;
+}
+
+.delay-1500 {
+  animation-delay: 1500ms;
+}
+
+.fallsdown {
+  animation-name: fallsdown;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  transform: translateY(-1000px);
+}
+
+@keyframes fallsdown{
+  from {transform: translateY(-1000px);}
+  to {transform: translateY(0);}
+}
+
+.fade-in {
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

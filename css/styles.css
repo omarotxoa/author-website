@@ -158,6 +158,77 @@ nav div span {
   font-size: 1.5em;
 }
 
+.delay-1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.delay-1250 {
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+}
+
+.delay-1500 {
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+}
+
+.fallsdown {
+  -webkit-animation-name: fallsdown;
+          animation-name: fallsdown;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  transform: translateY(-1000px);
+}
+
+@-webkit-keyframes fallsdown {
+  from {
+    transform: translateY(-1000px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fallsdown {
+  from {
+    transform: translateY(-1000px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .hero {
   display: flex;
   flex-wrap: wrap;
