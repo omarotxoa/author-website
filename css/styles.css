@@ -229,6 +229,28 @@ nav div span {
     opacity: 1;
   }
 }
+.reveal-right {
+  transform: translateX(50px);
+  opacity: 0;
+  transition: 400ms all ease-out;
+}
+
+.reveal-left {
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: 400ms all ease-out;
+}
+
+.reveal-fadein {
+  opacity: 0;
+  transition: 400ms all ease-out;
+}
+
+.reveal.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .hero {
   display: flex;
   flex-wrap: wrap;
