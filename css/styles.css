@@ -96,6 +96,12 @@ input[type=submit] {
   padding: 0.5rem;
 }
 
+button:hover,
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #e17233;
+}
+
 svg rect {
   fill: rgba(196, 89, 29, 0.5);
 }
